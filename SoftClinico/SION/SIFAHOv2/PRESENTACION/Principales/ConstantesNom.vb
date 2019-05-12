@@ -1,0 +1,36 @@
+﻿Public Class ConstantesNom
+    Public Const NOVEDAD_HORARIO_INDETERMINADO = "0"
+    Public Const NOVEDAD_AUSENCIA_LABORAL = "-1"
+    Public Const NOVEDAD_DIA_LABORADO_SIN_TURNO = "-2"
+    Public Const NOVEDAD_CAMBIO_TURNO = "-3"
+    Public Const TIPO_INTERES_BASE = "B"
+    Public Const TIPO_INTERES_SALDO = "S"
+
+    Public Const MESES_ESTUDIO_PAGO = 6
+    Public Const INTERES_DEFECTO = 5
+    Public Const PORCENTAJE_ENDEUDAMIENTO_MINIMO = 0.35
+    Public Const PORCENTAJE_ENDEUDAMIENTO_MAXIMO = 0.4
+
+    Public Const ID_EMPRESA_PRESTADORA = 1
+
+    ''TIPOS DE DEDUCCIONES
+    Public Const TIPO_ANTICIPO_SALARIAL = 0
+    Public Const TIPO_PRESTAMO = 1
+    Public Const TIPO_LIBRANZA = 2
+    Public Const TIPO_TELEFONIA = 3
+    Public Const TIPO_EXEQUIAS = 4
+
+    ''TIPOS DE MOVIMIENTOS
+    Public Const MOVIMIENTO_PENDIENTE = -1
+    Public Const MOVIMIENTO_PROXIMA_NOMINA = 0
+    Public Const MOVIMIENTO_EFECTIVO = 1
+    Public Const MOVIMIENTO_MORA = 2
+    Public Const MOVIMIENTO_EXCEPTUA = 3
+    Public Const MOVIMIENTO_PAGO_POR_NOMINA = 4
+    Public Const MOVIMIENTO_REFINANCIACION = 5
+
+    ''DESCRIPCION TIPO MOVIMIENTOS
+    Public Const MOVIMIENTO_DESCRIPCION_PROXIMA_NOMINA = "Próxima Nómina"
+    Public Const MOVIMIENTO_DESCRIPCION_EFECTIVO = "Efectivo"
+
+End Class
